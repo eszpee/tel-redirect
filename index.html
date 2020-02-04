@@ -1,5 +1,4 @@
-<h1>hello world</h1>
 <script>
 var tel = new URLSearchParams(document.location.search).get("number");
-alert(tel);
+window.location.href="tel://"+tel;
 </script>
